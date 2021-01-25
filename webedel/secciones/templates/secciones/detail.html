@@ -1,0 +1,6 @@
+<h1>{{ blog.blog_text }}</h1>
+<ul>
+{% for blogs in blog.nueva_seccion_set.all %}
+    <li>{{ blogs.nueva_seccion_text }}</li>
+{% endfor %}
+</ul>
