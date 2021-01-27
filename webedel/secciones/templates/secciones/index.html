@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html style="background: var(--cyan);">
-
+{% load static %}
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Pagina desarrollo personal 2</title>
-    <link rel="stylesheet" href="static/secciones/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'secciones/assets/bootstrap/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
-    <link rel="stylesheet" href="static/secciones/assets/css/styles.css">
+    <link rel="stylesheet" href="{% static 'secciones/assets/css/styles.css' %}">
 </head>
 
 <body class="text-left" style="font-family: Raleway, sans-serif;width: 1901px;max-width: none;">
@@ -35,26 +35,26 @@
         <h1 style="background: rgba(255,255,255,0.31);border-radius: 28px;">¿Cual es el área que te gustaría trabajar?</h1>
         <p style="background: rgba(255,255,255,0.23);border-radius: 16px;margin-right: -8px;margin-left: -9px;">Una de las 3 áreas mas importantes para lograr el éxito y la felicidad en la vida son estas:</p>
     </div>
-    <div id="accion" class="seccion1" style="margin: 0 auto;background: url(&quot;static/secciones/assets/img/wp3172265-universo-estrellas-wallpaper-hd.jpg&quot;) no-repeat;background-size: cover;">
+    <div id="accion" class="seccion1" style="margin: 0 auto;background: url(&quot;/static/secciones/assets/img/wp3172265-universo-estrellas-wallpaper-hd.jpg&quot;) no-repeat;background-size: cover;">
         <div class="row" style="max-width: none;width: 1691px;margin-left: 102px;">
-            <div class="col" style="/*position: absolute;*/background: rgba(0,0,0,0.43);"><img class="img-fluid" src="static/secciones/assets/img/Chica%20mirandose%20en%20el%20espejo.jpeg" style="height: 402px;position: relative;border-radius: 40px;">
+            <div class="col" style="/*position: absolute;*/background: rgba(0,0,0,0.43);"><img class="img-fluid" src="{% static 'secciones/assets/img/Chica%20mirandose%20en%20el%20espejo.jpeg' %}" style="height: 402px;position: relative;border-radius: 40px;">
                 <h1 class="text-center" style="font-size: 36px;position: relative;bottom: 85px;background: rgba(0,0,0,0.59);">¿Que te decís cada vez que te miras en el espejo?</h1>
                 <p class="text-center" style="position: relative;bottom: 110px;font-size: 24px;"><br>¿Que pensamientos se te vienen cuando las cosas no van como esperas? ¿Te sentis inferior o superior a los demas?<br>¿Cuanto te afecta lo que piensan de vos?<br>Las respuestas a estas preguntas dicen muchisimo en donde estas ahora. Se ve reflejado en tus relaciones, en la forma en la que tomas decisiones y hasta incluso en tu<br>economía.<br><br></p><a href="#" style="max-width: 0px;width: 10px;height: 10px;font-size: 30px;background: rgba(50,95,255,0.92);color: var(--white);border-radius: 26px;position: relative;bottom: 20PX;padding-bottom: 10px;padding-right: 10px;padding-top: 10px;padding-left: 10px;">QUIERO TRABAJAR MI AUTOESTIMA</a>
             </div>
-            <div class="col" style="/*position: absolute;*/background: rgba(0,1,3,0.46);color: var(--white);"><img class="img-fluid" src="static/secciones/assets/img/Hombre%20gritando.jpg" style="height: 404px;border-radius: 40px;">
+            <div class="col" style="/*position: absolute;*/background: rgba(0,1,3,0.46);color: var(--white);"><img class="img-fluid" src="{% static 'secciones/assets/img/Hombre%20gritando.jpg' %}" style="height: 404px;border-radius: 40px;">
                 <h1 class="text-center" style="font-size: 36px;position: relative;bottom: 85px;background: rgba(0,0,0,0.59);">¿Cuánto podes manejar tus impulsos?</h1>
                 <p class="text-center" style="font-size: 24px;position: relative;bottom: 76px;">El autoconocimiento, el autocontrol, saber gestionar las emociones y saber que sienten las personas son<br>herramientas clave para tener éxito en el área que sea. Es decir tener desarrollada<br>la inteligencia emocional. Si no sos capaz de controlar tus emociones ¿Cómo<br>va a controlar tu trabajo, tu proyectos o tus relaciones?<br>En esta sección vas a aprender a tener el control sobre tus emociones</p>
                 <p class="text-center" style="background: rgba(50,95,255,0.92);color: var(--white);border-radius: 74px;position: relative;bottom: 28px;width: 518px;text-align: center;"><a class="text-center" href="#" style="color: rgb(251,251,251);font-size: 30px;text-align: center;">QUIERO TRABAJAR MI INTELIGENCIA EMOCIONAL</a></p>
             </div>
-            <div class="col" style="/*position: absolute;*/background: rgba(0,0,0,0.49);"><img class="img-fluid" src="static/secciones/assets/img/Metas%201.jpg" style="height: 405px;border-radius: 40px;width: 537px;">
+            <div class="col" style="/*position: absolute;*/background: rgba(0,0,0,0.49);"><img class="img-fluid" src="{% static 'secciones/assets/img/Metas%201.jpg' %}" style="height: 405px;border-radius: 40px;width: 537px;">
                 <h1 class="text-center" style="font-size: 36px;position: relative;bottom: 85px;background: rgba(0,0,0,0.59);">¿De donde venís, donde estas y donde queres estar?</h1>
                 <p class="text-center" style="font-size: 24px;position: relative;bottom: 110px;"><br>La mayoría de las personas fracasan o están muy estancadas porque no tienen un objetivo claro, hacen las cosas por hacer y no saben cual su motivo realmente.<br>No tienen un dirección definida, no tienen un plan, se conforman con lo que tienen y la mayoría no es<br>responsable de su vida. Por eso es importante que tengas un objetivo claro y en esta sección vas a aprender llegar hasta donde se te de la gana<br><br></p>
                 <p class="text-center" style="background: rgba(50,95,255,0.92);color: var(--white);border-radius: 74px;position: relative;bottom: 100px;width: 518px;text-align: center;"><a class="text-center" href="#" style="color: rgb(251,251,251);font-size: 30px;text-align: center;">QUIERO APRENDER A DEFINIR MI METAS</a></p>
             </div>
         </div>
     </div>
-    <script src="static/secciones/assets/js/jquery.min.js"></script>
-    <script src="static/secciones/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{% static 'secciones/assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'secciones/assets/bootstrap/js/bootstrap.min.js' %}"></script>
 </body>
 
 </html>
