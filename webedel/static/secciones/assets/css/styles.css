@@ -1,0 +1,41 @@
+Division.jumbotron {
+}
+
+#Division {
+  text-align: center;
+  /*background: url(../../assets/img/238870.jpg) no-repeat;*/
+  background-size: cover;
+  padding: 40PX;
+}
+
+#Division .jumbotron {
+  padding: 20px;
+}
+
+.accion1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+#bienvenida-1 {
+}
+
+.text-left {
+  background: url(../../assets/img/238870.jpg) no-repeat;
+}
+
+#autoestima {
+  position: relative;
+  top: 8px;
+}
+
+#emociones {
+  position: relative;
+  top: 6px;
+}
+
+#metas {
+  position: relative;
+  top: 7px;
+}
